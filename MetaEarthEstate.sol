@@ -1586,8 +1586,8 @@ contract MetaEarthSBS_ESTATE is
         _safeMint(to, tokenId);
     }
 
-    //Set tile price in CET
-    uint public TILE_PRICE = 1 * 1e17; //1 tiles = 0.1 CET;
+    //Set tile price in KLAY
+    uint public TILE_PRICE = 1 * 1e17; //1 tiles = 0.1 KLAY;
 
     function setTilePrice(uint newPrice) public onlyOwner {
         TILE_PRICE = newPrice;
